@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>musica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>recomendação musical</h1>
+    <form action="https://www.google.com/search" target="_blank" method="get">
+        <label for="genero">Genêro</label>
+        <select id="genero">
+            <option value="remix funk de classicos pop">remix funk de classicos pop</option>
+            <option value="piseiro rock">piseiro rock</option>
+            <option value="samba japones">samba japonês</option>
+        </select>
+        <label for="musica">Musica recomendada</label>
+        <input class="musica" name='q' id="musica" type="text" required>
+    </form>
+    <button type="submit">pesquisar</button>
+</body>
+
+</html>
